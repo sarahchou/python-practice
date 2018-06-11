@@ -1,0 +1,47 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/Users/sarah/practice-directories/python-prac/rmt-python-practice/sarah/pytest-examples/module5-code/venv/bin/python', local('/Users/sarah/practice-directories/python-prac/rmt-python-practice/sarah/pytest-examples/module5-code/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/sarah/practice-directories/python-prac/rmt-python-practice/sarah/pytest-examples/module5-code/.tox/dist')]
+
+running sdist
+running egg_info
+writing rmt.egg-info/PKG-INFO
+writing dependency_links to rmt.egg-info/dependency_links.txt
+writing namespace_packages to rmt.egg-info/namespace_packages.txt
+writing top-level names to rmt.egg-info/top_level.txt
+reading manifest file 'rmt.egg-info/SOURCES.txt'
+writing manifest file 'rmt.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+creating rmt-0.1.0
+creating rmt-0.1.0/rmt.egg-info
+creating rmt-0.1.0/rmt
+creating rmt-0.1.0/rmt/el
+copying files to rmt-0.1.0...
+copying setup.py -> rmt-0.1.0
+copying rmt.egg-info/PKG-INFO -> rmt-0.1.0/rmt.egg-info
+copying rmt.egg-info/SOURCES.txt -> rmt-0.1.0/rmt.egg-info
+copying rmt.egg-info/dependency_links.txt -> rmt-0.1.0/rmt.egg-info
+copying rmt.egg-info/namespace_packages.txt -> rmt-0.1.0/rmt.egg-info
+copying rmt.egg-info/not-zip-safe -> rmt-0.1.0/rmt.egg-info
+copying rmt.egg-info/top_level.txt -> rmt-0.1.0/rmt.egg-info
+copying rmt/el/__init__.py -> rmt-0.1.0/rmt/el
+copying rmt/el/pytest_extra_learning.py -> rmt-0.1.0/rmt/el
+copying rmt/el/setup.py -> rmt-0.1.0/rmt/el
+Writing rmt-0.1.0/setup.cfg
+creating '.tox/dist/rmt-0.1.0.zip' and adding 'rmt-0.1.0' to it
+adding 'rmt-0.1.0/PKG-INFO'
+adding 'rmt-0.1.0/setup.cfg'
+adding 'rmt-0.1.0/setup.py'
+adding 'rmt-0.1.0/rmt/el/__init__.py'
+adding 'rmt-0.1.0/rmt/el/pytest_extra_learning.py'
+adding 'rmt-0.1.0/rmt/el/setup.py'
+adding 'rmt-0.1.0/rmt.egg-info/dependency_links.txt'
+adding 'rmt-0.1.0/rmt.egg-info/namespace_packages.txt'
+adding 'rmt-0.1.0/rmt.egg-info/not-zip-safe'
+adding 'rmt-0.1.0/rmt.egg-info/PKG-INFO'
+adding 'rmt-0.1.0/rmt.egg-info/SOURCES.txt'
+adding 'rmt-0.1.0/rmt.egg-info/top_level.txt'
+removing 'rmt-0.1.0' (and everything under it)
